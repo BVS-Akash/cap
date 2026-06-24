@@ -1,0 +1,7 @@
+COLUMN TABLE exam_logistics_Packages (
+  ID NVARCHAR(36) NOT NULL,
+  contents NVARCHAR(5000),
+  weight DECIMAL(10, 2),
+  parent_ID NVARCHAR(36),
+  PRIMARY KEY(ID)
+)

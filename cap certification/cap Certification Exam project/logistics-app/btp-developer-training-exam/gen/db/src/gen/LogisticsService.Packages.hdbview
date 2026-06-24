@@ -1,0 +1,6 @@
+VIEW LogisticsService_Packages AS SELECT
+  Packages_0.ID,
+  Packages_0.contents,
+  Packages_0.weight,
+  Packages_0.parent_ID
+FROM exam_logistics_Packages AS Packages_0

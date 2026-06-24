@@ -1,0 +1,432 @@
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:30.245960] Updated app with guid 9da06e40-0a43-4949-b585-5c4786de912b ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:30.363899] Updating process: "web" (STDOUT, API)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:41.472297] Uploading app package for app with guid 9da06e40-0a43-4949-b585-5c4786de912b (STDOUT, API)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:41.739257] Updated app with guid 9da06e40-0a43-4949-b585-5c4786de912b ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.511565] Creating build for app with guid 9da06e40-0a43-4949-b585-5c4786de912b (STDOUT, API)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.888098] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.926992] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.927051] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 creating container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:52.438962] Security group rules were updated (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:52.507008] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully created container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.151746] Downloading app package... (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.151837] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.221852] Downloaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.439492] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.516542] -----> Nodejs Buildpack version 1.9.1 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.607698] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.607745] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.607877] Copy [/tmp/buildpacks/41bf7e391d715a71/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.774953] -----> Installing binaries (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775199] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775218] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775223] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775226] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775265] Copy [/tmp/buildpacks/41bf7e391d715a71/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.640350] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.640378] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.640472] Copy [/tmp/buildpacks/41bf7e391d715a71/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.920018] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.920054] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921717] NODE_ENV=production (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921734] NODE_HOME=/tmp/contents1993712879/deps/0/node (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921738] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921740] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921742] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921744] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921755] -----> Building dependencies (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921757] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921763] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.328777] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.381528] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.732610] up to date in 289ms (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.732800] 4 packages are looking for funding (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.732875] run `npm fund` for details (STDOUT, STG)#
+#2026 06 23 10:31:01.273#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1823#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:00.228705] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 23 10:31:11.292#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1921#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312277] Exit status 0 (STDOUT, STG)#
+#2026 06 23 10:31:11.292#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1921#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312361] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 23 10:31:11.292#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1921#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312433] Uploading droplet... (STDOUT, STG)#
+#2026 06 23 10:31:11.292#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1921#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312449] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 23 10:31:11.292#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1921#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.345520] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 06 23 10:31:11.292#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1921#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:09.078809] Creating droplet for app with guid 9da06e40-0a43-4949-b585-5c4786de912b (STDOUT, API)#
+#2026 06 23 10:31:21.378#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1246#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.152621] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 06 23 10:31:21.378#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1246#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.168513] Uploading complete (STDOUT, STG)#
+#2026 06 23 10:31:21.378#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1246#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.702002] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 stopping instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:21.378#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1246#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.702056] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 destroying container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:21.378#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1246#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.758344] Staging complete for build 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, API)#
+#2026 06 23 10:31:21.378#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1246#
+[PollStageAppStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:15.396923] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully destroyed container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:30.245960] Updated app with guid 9da06e40-0a43-4949-b585-5c4786de912b ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:30.363899] Updating process: "web" (STDOUT, API)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:41.472297] Uploading app package for app with guid 9da06e40-0a43-4949-b585-5c4786de912b (STDOUT, API)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:41.739257] Updated app with guid 9da06e40-0a43-4949-b585-5c4786de912b ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.511565] Creating build for app with guid 9da06e40-0a43-4949-b585-5c4786de912b (STDOUT, API)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.888098] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.926992] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:51.927051] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 creating container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:52.438962] Security group rules were updated (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:52.507008] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully created container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.151746] Downloading app package... (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.151837] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.221852] Downloaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.439492] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.516542] -----> Nodejs Buildpack version 1.9.1 (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.607698] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.607745] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:53.607877] Copy [/tmp/buildpacks/41bf7e391d715a71/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.774953] -----> Installing binaries (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775199] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775218] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775223] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775226] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 06 23 10:31:31.404#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:56.775265] Copy [/tmp/buildpacks/41bf7e391d715a71/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.640350] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.640378] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.640472] Copy [/tmp/buildpacks/41bf7e391d715a71/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.920018] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.920054] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921717] NODE_ENV=production (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921734] NODE_HOME=/tmp/contents1993712879/deps/0/node (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921738] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921740] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921742] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921744] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921755] -----> Building dependencies (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921757] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:58.921763] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.328777] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.381528] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.732610] up to date in 289ms (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.732800] 4 packages are looking for funding (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:30:59.732875] run `npm fund` for details (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:00.228705] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312277] Exit status 0 (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312361] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312433] Uploading droplet... (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.312449] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:08.345520] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:09.078809] Creating droplet for app with guid 9da06e40-0a43-4949-b585-5c4786de912b (STDOUT, API)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.152621] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.168513] Uploading complete (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.702002] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 stopping instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.702056] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 destroying container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:13.758344] Staging complete for build 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, API)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:15.396923] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully destroyed container for instance 638729cc-20cf-44e7-a7c3-2e3b2d7a62bb (STDOUT, STG)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:21.472018] Updated app with guid 9da06e40-0a43-4949-b585-5c4786de912b ({:droplet_guid=>"58e23a87-af1f-4e68-b9f9-af77346b409b"}) (STDOUT, API)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:22.020261] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 creating container for instance 7d373054-8dde-4323-a204-feddf07783ee (STDOUT, CELL)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:22.523404] Security group rules were updated (STDOUT, CELL)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:22.592564] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully created container for instance 7d373054-8dde-4323-a204-feddf07783ee (STDOUT, CELL)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.261507] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.407819] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.718444] > start (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.718467] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.831944] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832425] { (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832440] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832447] { (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832451] "name": "c_cpe_template-db", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832454] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832457] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832459] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832462] "schema": "511C08CF7CA843BB84CD2E9AB00A161F", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832464] "database_id": "65be6bd8-fa24-444c-b89a-6e3bb0b73a99", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832466] "user": "511C08CF7CA843BB84CD2E9AB00A161F_0GTLMU00YZJKF57UU8WR3HJ2I_RT", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832470] "hdi_user": "511C08CF7CA843BB84CD2E9AB00A161F_0GTLMU00YZJKF57UU8WR3HJ2I_DT" (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832472] }, (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832478] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832481] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832482] "database", (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832487] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832489] ] (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832491] } (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832493] ] (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:26.832494] } (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.227114] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1780992861 (4.0.0.0), cloud version 2026.2.18, node version 24.15.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.227224] Deployment started at 2026-06-23 10:31:27 (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.227456] Using hdb@2.29.4 for connection (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.243480] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.243753] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.246400] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.246419] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.246422] 11 files collected (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.246435] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.246437] Target service: c_cpe_template-db (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.441753] Previous build with request ID 14 finished at 2026-06-23T10:23:18.19 with status Committed and message: Make succeeded (0 warnings): 11 files deployed (effective 13), 0 files undeployed (effective 0), 0 dependent files redeployed. (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.441791] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.441958] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.442155] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.442252] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.444647] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.444867] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.444931] Connecting to the container "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.509956] Connecting to the container "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 65ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.509982] Locking the container "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.655084] Locking the container "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 145ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.655101] Synchronizing files with the container "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:27.931613] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.083928] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.083963] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.084210] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.238927] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.238953] Synchronizing files with the container "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 584ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.239293] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.239420] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.239435] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.239478] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.239758] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.240040] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.240046] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.240048] Deploying to the container "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572230] Starting make in the container "511C08CF7CA843BB84CD2E9AB00A161F" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572257] Disabling table replication for the container schema "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572263] Disabling table replication for the container schema "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 13ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572266] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572297] Migrating libraries... ok (0s 19ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572302] Making... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572305] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572308] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572310] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572371] Preparing the make transaction... ok (0s 23ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572373] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572466] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572496] Expanding... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572500] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572520] Precompiling... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572528] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572530] Merging... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572533] Calculating dependencies... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572535] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572557] Making... ok (0s 90ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572560] Enabling table replication for the container schema "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572563] Enabling table replication for the container schema "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572566] Starting make in the container "511C08CF7CA843BB84CD2E9AB00A161F" with 0 files to deploy, 0 files to undeploy... ok (0s 142ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.572778] Deploying to the container "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 333ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.573034] No default-access-role handling needed; global role "511C08CF7CA843BB84CD2E9AB00A161F::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.573102] Unlocking the container "511C08CF7CA843BB84CD2E9AB00A161F"... (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.573261] Unlocking the container "511C08CF7CA843BB84CD2E9AB00A161F"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.573365] Deployment to container 511C08CF7CA843BB84CD2E9AB00A161F done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.573614] Deployment ended at 2026-06-23 10:31:28 (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.573978] (1s 817ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.585427] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.585450] npm notice New minor version of npm available! 11.12.1 -> 11.17.0 (STDERR, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.585453] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0 (STDERR, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.585456] npm notice To update run: npm install -g npm@11.17.0 (STDERR, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.585458] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:28.641849] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:29.125007] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 stopping instance 7d373054-8dde-4323-a204-feddf07783ee (STDOUT, CELL)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:29.125044] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 destroying container for instance 7d373054-8dde-4323-a204-feddf07783ee (STDOUT, CELL)#
+#2026 06 23 10:31:31.405#Z#DEBUG#8c1c1b22-6eee-11f1-86e1-eeee0a8f98da.c_cpe_template-db-deployer#flowable-async-job-executor-thread-1940#
+[PollExecuteTaskStatusExecution] 9da06e40-0a43-4949-b585-5c4786de912b [2026-06-23T10:31:31.012652] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully destroyed container for instance 7d373054-8dde-4323-a204-feddf07783ee (STDOUT, CELL)#

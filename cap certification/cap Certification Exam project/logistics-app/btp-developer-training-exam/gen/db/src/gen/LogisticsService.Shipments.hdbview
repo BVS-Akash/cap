@@ -1,0 +1,5 @@
+VIEW LogisticsService_Shipments AS SELECT
+  Shipments_0.ID,
+  Shipments_0.customer,
+  Shipments_0.mode
+FROM exam_logistics_Shipments AS Shipments_0

@@ -1,0 +1,6 @@
+COLUMN TABLE exam_logistics_Shipments (
+  ID NVARCHAR(36) NOT NULL,
+  customer NVARCHAR(5000),
+  mode NVARCHAR(5000),
+  PRIMARY KEY(ID)
+)

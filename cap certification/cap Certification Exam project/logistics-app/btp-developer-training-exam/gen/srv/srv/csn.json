@@ -1,0 +1,252 @@
+{
+  "namespace": "exam.logistics",
+  "definitions": {
+    "exam.logistics.TransportMode": {
+      "kind": "type",
+      "type": "cds.String",
+      "enum": {
+        "Sea": {
+          "val": "S"
+        },
+        "Air": {
+          "val": "A"
+        },
+        "Rail": {
+          "val": "R"
+        }
+      }
+    },
+    "exam.logistics.Shipments": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "customer": {
+          "type": "cds.String"
+        },
+        "mode": {
+          "type": "exam.logistics.TransportMode"
+        },
+        "packages": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "exam.logistics.Packages",
+          "on": [
+            {
+              "ref": [
+                "packages",
+                "parent"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        },
+        "totalWeight": {
+          "@Core.Computed": true,
+          "virtual": true,
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 2
+        },
+        "shippingFee": {
+          "@Core.Computed": true,
+          "virtual": true,
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 2
+        }
+      }
+    },
+    "exam.logistics.Packages": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "contents": {
+          "type": "cds.String"
+        },
+        "weight": {
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 2
+        },
+        "parent": {
+          "type": "cds.Association",
+          "target": "exam.logistics.Shipments",
+          "keys": [
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "LogisticsService": {
+      "@source": "srv/logistics-service.cds",
+      "kind": "service",
+      "@path": "/logistics"
+    },
+    "LogisticsService.Shipments": {
+      "kind": "entity",
+      "projection": {
+        "from": {
+          "ref": [
+            "exam.logistics.Shipments"
+          ]
+        }
+      },
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "customer": {
+          "type": "cds.String"
+        },
+        "mode": {
+          "type": "exam.logistics.TransportMode"
+        },
+        "packages": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "LogisticsService.Packages",
+          "on": [
+            {
+              "ref": [
+                "packages",
+                "parent"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        },
+        "totalWeight": {
+          "@Core.Computed": true,
+          "virtual": true,
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 2
+        },
+        "shippingFee": {
+          "@Core.Computed": true,
+          "virtual": true,
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 2
+        }
+      }
+    },
+    "LogisticsService.Packages": {
+      "kind": "entity",
+      "@readonly": true,
+      "projection": {
+        "from": {
+          "ref": [
+            "exam.logistics.Packages"
+          ]
+        }
+      },
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "contents": {
+          "type": "cds.String"
+        },
+        "weight": {
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 2
+        },
+        "parent": {
+          "type": "cds.Association",
+          "target": "LogisticsService.Shipments",
+          "keys": [
+            {
+              "ref": [
+                "ID"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "cds.outbox.Messages": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "timestamp": {
+          "type": "cds.Timestamp"
+        },
+        "target": {
+          "type": "cds.String"
+        },
+        "msg": {
+          "type": "cds.LargeString"
+        },
+        "attempts": {
+          "type": "cds.Integer",
+          "default": {
+            "val": 0
+          }
+        },
+        "partition": {
+          "type": "cds.Integer",
+          "default": {
+            "val": 0
+          }
+        },
+        "lastError": {
+          "type": "cds.LargeString"
+        },
+        "lastAttemptTimestamp": {
+          "@cds.on.update": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "status": {
+          "type": "cds.String",
+          "length": 23
+        },
+        "task": {
+          "type": "cds.String",
+          "length": 255
+        },
+        "appid": {
+          "type": "cds.String",
+          "length": 255
+        }
+      }
+    }
+  },
+  "meta": {
+    "creator": "CDS Compiler v6.6.0",
+    "flavor": "inferred"
+  },
+  "$version": "2.0"
+}
